@@ -264,7 +264,18 @@ cursor: pointer;
 
 .button-hover:hover{
     background-color: transparent;
+}
 
+.cart-table{
+    width: 100%;
+    border-collapse:collapse ;  
+}
+
+.table-head-item{
+    text-align: start;
+    border-bottom: 1px solid var(--darkgray);
+    padding-bottom: 6px;
+    text-transform: uppercase; 
 }
 
 
