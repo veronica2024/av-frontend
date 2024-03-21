@@ -51,7 +51,6 @@ li{
     list-style-type: none;
     text-transform: uppercase;
     color: #000080;
-    
 }
 hr{
     width: 100%;
@@ -113,6 +112,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .list-container{
@@ -120,6 +120,8 @@ hr{
     align-items: center;
     justify-content: space-between;
 }
+
+
 
 .title-smaller{
     font-family: "Raleway", sans-serif;
@@ -369,11 +371,105 @@ width: 25%;
 
 /*responsividade*/
 
+
+
 @media(max-width:725px) {
-    .footer-container{
+    .main-footer-container{
         flex-direction: column;
     }
+    .title-median{ 
+        font-size:30px ;
+        padding: 4px;
+    }
 }
+
+@media(max-width:680px) {
+    .product-container{
+        justify-content: center;
+    }
+   .title-median{
+    font-size:27px ;
+   }
+}
+
+@media(max-width:600px) {
+    .title-large{
+        font-size: 36px;
+    }
+    .title-median{
+        font-size:24px ;
+    }
+}
+
+
+
+@media(max-width:560px) {
+    .title-large{
+        font-size: 30px;
+    }
+    .title-median{
+        font-size:21px ;
+    }
+}
+
+@media(max-width:500px) {
+    .title-header{
+        font-size: 30px;
+
+    }
+    .title-large{
+        font-size: 21px;
+    }
+    .title-median{
+        font-size: 18px;
+    }
+    .title-smaller{
+        font-size: 22px;
+    }
+    
+}
+
+@media(max-width:405px) {
+    .nav-item img{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .header-list-container{
+        font-size: 18px; 
+      
+    }
+    .description{
+        font-size: 19px;
+        font-family: "madimi one", cursive;
+    }
+    .title-median{
+        font-size: 17px;
+    }
+    .product-container{
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .product-image{
+        width: 315px;
+    }
+    
+}
+
+@media(max-width:375px) {
+    .about-image{
+        width: 160px;
+    }
+    .contact-text{
+        font-size: 25px;
+    }
+    
+}
+
+
+
+
 
 
 
