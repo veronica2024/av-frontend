@@ -8,6 +8,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+.product-box{
+    border-radius: 5px;
+    box-shadow:3px 3px 5px 5px black;
+
+}
+.log-zoom{
+    transition: transform 0.3s ease;
+}
+.log-zoom:hover{
+    transform: scale(1.4);
+}
 
 body, button, input{
     font:400 22px "Roboto",sans-serif ;
@@ -251,6 +262,7 @@ padding-bottom: 30px;
     width: 320px;
     height: 220px;
     margin-bottom: 20px;
+
 }
 
 .product-prince-container{
