@@ -13,6 +13,33 @@
     box-shadow:3px 3px 5px 5px black;
 
 }
+.nav-item:hover .sub-items{
+    display: block;
+}
+
+.sub-items{
+    display: none;
+    position: fixed;
+    padding: 10px;
+    border-radius: 5px;
+}
+.sub-items li{
+    margin-bottom: 5px;
+}
+
+.sub-items a{
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 16px;
+}
+.sub-items a:hover{
+    text-decoration: none;
+    background-color: rgba(0,0,0, 0.5);
+    border-radius: 5px;
+    padding: 0px 3px;
+    color:var(--blue);
+    
+}
 .log-zoom{
     transition: transform 0.3s ease;
 }
