@@ -13,6 +13,27 @@
     box-shadow:3px 3px 5px 5px black;
 
 }
+
+/* Estilo para o botão "Voltar ao Topo" */
+#voltarAoTopo {
+    display: none; /* Inicialmente oculto até que a página seja rolada para baixo */
+    position: fixed; /* Mantém o botão fixo mesmo quando a página é rolada */
+    bottom: 350px; /* Distância em relação ao fundo da janela */
+    right: 50px; /* Distância em relação à borda direita da janela */
+    background-color: var(--gray); /* Cor de fundo do botão */
+    color: var(--blue); /* Cor do texto do botão */
+    border: none; /* Sem borda */
+    padding: 0; /* Sem preenchimento interno */
+    cursor: pointer; /* Cursor do mouse muda para ponteiro ao passar sobre o botão */
+    border-radius: 50%; /* Borda arredondada para criar um botão circular */
+ }
+ 
+ /* Estilo para a imagem dentro do botão */
+ .scroll {
+    width: 50px; /* Largura da imagem */
+    height: 50px; /* Altura da imagem */
+ }
+
 .nav-item:hover .sub-items{
     display: block;
 }
